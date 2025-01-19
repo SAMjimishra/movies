@@ -25,8 +25,8 @@ MOVIE_GROUP_LINK = environ.get('SAM_Entertainments', 'https://t.me/SAM_Entertain
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002289129783').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SAM:SAM@sam.bnb7d.mongodb.net/?retryWrites=true&w=majority&appName=SAM")
-DATABASE_NAME = environ.get('DATABASE_NAME', "SAM")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SAMse:SAMse@samse.ijrhf.mongodb.net/?retryWrites=true&w=majority&appName=SAMse")
+DATABASE_NAME = environ.get('DATABASE_NAME', "SAMse")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
